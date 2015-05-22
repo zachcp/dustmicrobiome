@@ -2,10 +2,13 @@ Package: dustmicrobiome
 Title: What the package does (short line)
 Version: 0.1.0
 Date: 2015-05-21
-Authors@R: 'Zach Charlop-Powers <zcharlop@rockefeller.edu> [aut,cre]'
-Description: Microbiome data from the Barberasn et.al study of bacterial an fungal microbiomes from
-across the united states
+Author: Zach Charlop-Powers <zcharlop@rockefeller.edu> 
+Maintainer: Zach Charlop-Powers <zcharlop@rockefeller.edu> 
+Description: Microbiome data from the Barberan et.al study of bacterial and 
+    fungal microbiomes from across the united states
 License: CC-BY
+Depends:
+    R (>= 3.0)
 Suggests:
-    phyloseq
-    phylogeo
+    phyloseq (>= 1.0),
+    phylogeo (>= 0.99)
