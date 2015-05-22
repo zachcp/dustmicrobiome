@@ -13,13 +13,12 @@
 #'                   distributions of dust-associated bacteria and fungi}
 #' @docType package
 #' @keywords package
-NULL
-
+NA
 #' Dust Microbiome OTU and Sample Data for ITS (fungal) amplicons.
 #'
 #' Phyloseq object containing OTU frequencies of ITS amplicon data..
 #'
-#' @source http://figshare.com/articles/1000homes/1270900
+#' 
 #' @format a phyloseq object with three slots
 #' \describe{
 #' \item{\code{sample_data}}{A dataframe with Sample information}
@@ -29,20 +28,24 @@ NULL
 #' \item{\code{tax_table}}{A matrix containing taxonomy information. 
 #'                         Rows are OTUs, columns are units of taxonomy.}
 #' }
-#'
+#' 
 #' @seealso
-#' \code{\link[phyloseq]{phyloseq}}
-#' \code{\link[phyloseq]{sample_data}}
-#' \code{\link[phyloseq]{otu_table}}
-#' \code{\link[phyloseq]{tax_table}}
-#'    
-"fungi"
+#'   \code{\link[phyloseq]{phyloseq}}
+#'   \code{\link[phyloseq]{sample_data}}
+#'   \code{\link[phyloseq]{otu_table}}
+#'   \code{\link[phyloseq]{tax_table}}
+#' 
+#' @source http://figshare.com/articles/1000homes/1270900 
+#' @name data-fungi
+#' @aliases fungi
+#' @docType data
+#' @keywords data  
+NA
 
 #' Dust Microbiome OTU and Sample Data for 16S (bacterial) amplicons.
 #'
 #' Phyloseq object containing OTU frequencies of 16S amplicon data..
 #'
-#' @source http://figshare.com/articles/1000homes/1270900
 #' @format a phyloseq object with three slots
 #' \describe{
 #' \item{\code{sample_data}}{A dataframe with Sample information}
@@ -58,4 +61,10 @@ NULL
 #' \code{\link[phyloseq]{sample_data}}
 #' \code{\link[phyloseq]{otu_table}}
 #' \code{\link[phyloseq]{tax_table}}
-"phy16S"
+#' 
+#' @docType data
+#' @keywords data
+#' @name data-phy16S
+#' @aliases phy16S
+#' @source http://figshare.com/articles/1000homes/1270900
+NA
